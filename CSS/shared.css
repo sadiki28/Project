@@ -215,7 +215,7 @@ section {
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100, 65, 0, .3);
-    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5)
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .reservation h2 {
@@ -262,7 +262,7 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input [type="text"] {
+.reservation input[type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -280,7 +280,7 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input [type="text"]:hover {
+.reservation input[type="text"]:hover {
     box-shadow: 0 0 18px rgba(100, 65, 0, .8);
 
 }
@@ -309,7 +309,7 @@ section {
     text-decoration: underline;
 }
 
-.submit input [type="submit"]{
+.submit input[type="submit"]{
     color:rgb(255, 255, 255);
     cursor: pointer;
     border: none;
@@ -327,7 +327,7 @@ section {
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
-.submit input [type="submit"]:hover {
+.submit input[type="submit"]:hover {
     color: #000;
     background-color: #8d8e8f;
     box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5)
@@ -372,5 +372,5 @@ section {
 @media (min-width: 1200px){
     .container {
         width: 1170px;
-    }
+}
 }
